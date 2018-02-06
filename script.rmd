@@ -1,8 +1,12 @@
 
 library(ggplot2)
+
 library(caret)
+
 library(openxlsx)
+
 library(randomForest)
+
 
 pacman::p_load(plyr, dplyr, tidyr)
 pacman::p_load(readr, haven)
@@ -11,10 +15,12 @@ select<-dplyr::select
 set.seed(124)
 
 # Load Data
-setwd("C:/!KRISTINA/!COURSERA/R_Practical Machine Learning/Course Project")
+
 
 df_training<-read.csv("pml-training.csv")  
+
 df_testing<-read.csv("pml-testing.csv")
+
 
 head(df_training)
 names(df_training)
