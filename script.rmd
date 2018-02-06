@@ -101,4 +101,3 @@ write.csv(df_testing_res, "pml-testing-res.csv")
 
 
 
-
